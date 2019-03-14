@@ -36,6 +36,7 @@ td {
 th,
 td {
   padding: 15px;
+  font-size: 24px;
 }
 
 table {
@@ -59,4 +60,7 @@ table {
   font-size: 25px;
   padding-top: 20px;
   font-weight: 800;
+}
+.type {
+  font-size: 20px;
 }

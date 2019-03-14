@@ -1,0 +1,62 @@
+body {
+  padding: 0;
+  margin: 0;
+  background: rgb(30, 33, 38);
+  font-family: "Inconsolata";
+
+  background-image: url("./bi0s.png"); /* The image used */
+
+  height: 500px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+h1 {
+  color: rgb(32, 194, 14);
+  font-size: 3em;
+  font-weight: bolder;
+}
+p {
+  color: rgb(32, 194, 14);
+}
+
+.main-title {
+  text-align: center;
+  margin-top: 100px;
+}
+table {
+  color: white;
+}
+table,
+th,
+td {
+  border: 1px solid rgb(32, 194, 14);
+}
+
+th,
+td {
+  padding: 15px;
+}
+
+table {
+  margin: 0 auto;
+}
+
+.first-row-item {
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.secondary-title {
+  text-align: center;
+}
+.logo {
+  padding-top: 10px;
+  display: flex;
+}
+.logo-text {
+  color: white;
+  font-size: 25px;
+  padding-top: 20px;
+  font-weight: 800;
+}
